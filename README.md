@@ -1,3 +1,3 @@
-# ¿Quienés están en este repo?
+# Curso Bécalos / DEVF
 
-- Cesar Ayar [@cesar-ayar](https://github.com/cesar-ayar)
+El propósito de este repositorio es almacenar los ejercicios del curso de Frontend de DEVF.

@@ -1,0 +1,351 @@
+
+/* Variables prinicipales ¨*/
+
+:root {
+    --amarillo:             #FEDD00;
+    --amarilloCanario:      #FFF199;
+    --azulMarino:           #211551;
+    --azulMarinoSecundario: #372C62;
+    --azulCeleste:     #00b5e2;
+    --blanco:          #FFFFFF;
+    --negro:           #000000;
+    --tipografia:      'Satoshi', sans-serif;
+    --tamanoH2:        64px;
+    --tamanoP:         18px;
+    --peso:            600px;
+    --bordeBoton:      7px;
+    --estiloBoton:     solid; 
+    --margin:          0px;
+    --padding:         20px;
+    --display:         block;
+    --text-decoration: none;
+    --font-size:       14px;
+    --max-width:       1312px;
+    --widthTotal:      100%;
+    --transicion:      color .15s ease-in-out;
+}
+
+/* Estilos globales */
+
+* {
+    margin:          var(--margin);
+    padding:         0px;
+    box-sizing:      border-box;
+}
+
+html {
+    font-family: var(--tipografia);
+    text-decoration: none;
+    font-size:       14px;
+}
+
+html a {
+    text-decoration: var(--text-decoration);
+}
+strong {
+    font-weight: bolder;
+}
+
+.boton {
+    display: flex;
+    border: 1px, solid;
+    font-size: 18px;
+    font-weight: 500;
+    align-items: center;
+    border-radius: 7px;
+    padding: 17px;
+    white-space: nowrap;
+    width: auto;
+    gap: 5px;
+    transition: color .5s ease;
+}
+
+/* Estilos cintillo amarillo */
+
+.banner-seccion {
+    background-color: var(--amarillo);
+    display:          block;
+}
+
+.cta {
+    display:          flex;
+    align-items:      center;
+    justify-content:  center;
+    gap:              20px;
+    padding:          4px 20px;
+    margin:           0px auto;
+}
+
+.cta-contenido {
+    padding:          2px 20px;
+    border-radius:    50px;
+    background-color: var(--amarilloCanario);
+    color:            var(--azulMarino);
+    max-width: var(--widthTotal);
+}
+
+.cta-texto {
+    display:    inline;
+    font-size:  15px;
+    font-weight: 400;
+}
+
+.cta-texto a {
+    text-decoration:       underline;
+    text-underline-offset: 1.5px;
+    line-height:           1.5;
+}
+
+.cta-cerrar a {
+    text-decoration: none;
+    color: var(--negro);
+}
+
+.cta-cerrar .ri-close-line {
+    color:            var(--blanco);
+    background-color: var(--azulMarino);
+    border-radius:    50%;
+    margin-left:      10px;
+}
+
+/* Estilos cintilllo Account */
+
+.tira-seccion {
+    display: flex;
+}
+
+.tira-contenedor {
+    display:         flex;
+    justify-content: center;
+    width:           100%;
+    padding-left:    1rem;
+    padding-right:   1rem;
+}
+
+.tira-subcontenedor {
+    margin:    0px;
+    max-width: 1312px;
+    width:     100%;
+
+}
+
+.tira-contenido {
+    padding-bottom:  3px;
+    padding-top:     3px;
+    justify-content: flex-end;
+    align-items:     center;
+    width:           100%;
+    display:         flex;
+}
+
+.tira-contenido a {
+    color:           var(--azulMarino);
+    text-decoration: var(--text-decoration);
+}
+
+.tira-contenido a:hover {
+    color: var(--azulCeleste);
+}
+
+/* Estilos header */
+
+header {
+    background-color: var(--azulMarino);
+    padding: 0px;
+    top: 0rem;
+    left: 0rem;
+    right: 0rem;
+    z-index:99;
+    border-bottom: 1px, solid;
+    position: sticky;
+}
+
+.header-seccion {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.header-contenedor {
+    max-width: var(--max-width);
+    width: var(--widthTotal);
+}
+
+.menu-header {
+    display: flex;
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+    align-items: center;
+    transition: all .5s ease;
+    justify-content: space-between;
+}
+
+.logo-header {
+    width: 184px;
+    height: 32px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    list-style: none;
+}
+
+.header-menu li a {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--blanco);
+    transition: var(--transicion);
+}
+
+.header-menu li a:hover {
+    color: var(--azulCeleste);
+}
+
+#btn-header, .ri-arrow-right-line{
+    background-color: var(--azulCeleste);
+    border-color: var(--azulCeleste);
+    color:var(--azulMarino)
+}
+
+#btn-header:hover, .ri-arrow-right-line:hover {
+    background-color: var(--azulMarino);
+    border-color: var(--azulCeleste);
+    color: var(--azulCeleste)
+}
+
+/* Estilos Sección Hero */
+
+.hero-seccion {
+    background-color: var(--azulMarino);
+    padding: 60px 20px 0px;
+    color: var(--blanco);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-fondo {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    opacity: .3;
+}
+
+.hero-fondo::before {
+    display:block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: left 0px top;
+    background-repeat: no-repeat;
+    content: "";
+    background-image: url('img/cuadricula-azul.svg');
+}
+
+.titulo-hero {
+    padding: 0px 0px 30px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.hero-contenido {
+    padding: 30px 0px;
+    position: relative;
+    gap: 10px;
+}
+
+.hero-contenido ul{
+    column-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    white-space: normal;
+    text-align: left;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.hero-contenido ul li {
+    width: auto;
+    background-color: var(--azulMarinoSecundario);
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px 15px;
+    gap: 1rem;
+    white-space: nowrap;
+    display: flex;
+    font-size: 16px;
+}
+
+.hero-contenido ul li i {
+    border-radius: 50%;
+    border-color: var(--azulCeleste);
+    background-color: var(--azulMarinoSecundario);
+    border: 1px, solid;
+}
+
+.hero-botones {
+    margin-top: 30px;
+    justify-content: center;
+    gap: 12px;
+    white-space: nowrap;
+    display: flex;
+}
+
+.hero-botones .relleno {
+    color: var(--azulMarino);
+    background-color: var(--azulCeleste);
+}
+
+.hero-botones .relleno:hover {
+    color: var(--azulCeleste);
+    background-color: var(--azulMarino);
+}
+
+.hero-botones .borde {
+    color: var(--azulCeleste);
+    border-color: var(--azulCeleste);
+}
+
+.hero-botones .borde:hover {
+    background-color: var(--azulCeleste);
+    color: var(--azulMarino);
+}
+
+.logos {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px 0;
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.logos svg,img {
+    height: 50px;
+    padding: 10px 15px;
+}
+
+.cinta-trustpilot {
+    justify-content: center;
+    background-color: var(--azulMarino);
+    align-items: center;
+    color: var(--blanco);
+    height: 80px;
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+

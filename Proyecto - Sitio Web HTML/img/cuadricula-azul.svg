@@ -1,0 +1,43 @@
+<svg width="1440" height="823" viewBox="0 0 1440 823" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<linearGradient x1="-13.581%" y1="47.696%" x2="45.867%" y2="67.731%" id="hero-home-grid_svg__a">
+			<stop stop-color="#00B5E2" stop-opacity="0" offset="0%"/>
+			<stop stop-color="#00B5E2" offset="100%"/>
+		</linearGradient>
+		<linearGradient x1="-13.581%" y1="47.696%" x2="45.867%" y2="67.73%" id="hero-home-grid_svg__b">
+			<stop stop-color="#00B5E2" stop-opacity="0" offset="0%"/>
+			<stop stop-color="#00B5E2" offset="100%"/>
+		</linearGradient>
+		<linearGradient x1="113.086%" y1="53.234%" x2="67.022%" y2="67.057%" id="hero-home-grid_svg__c">
+			<stop stop-color="#00B5E2" stop-opacity="0" offset="0%"/>
+			<stop stop-color="#00B5E2" offset="100%"/>
+		</linearGradient>
+		<linearGradient x1="113.086%" y1="53.234%" x2="67.022%" y2="67.057%" id="hero-home-grid_svg__d">
+			<stop stop-color="#00B5E2" stop-opacity="0" offset="0%"/>
+			<stop stop-color="#00B5E2" offset="100%"/>
+		</linearGradient>
+	</defs>
+	<g fill="none" fill-rule="evenodd">
+		<path stroke="url(#hero-home-grid_svg__a)" d="M2468.799 0l1409.082 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__b)" d="M2400.216 0l1409.092 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__a)" d="M2331.643 0l1409.082 823M2263.07 0l1409.082 823M2194.487 0l1409.082 823M2125.914 0l1409.082 823M2057.331 0l1409.082 823M1988.758 0L3397.84 823M1920.175 0l1409.082 823M1851.602 0l1409.082 823M1783.019 0l1409.082 823M1714.446 0l1409.082 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__b)" d="M1645.863 0l1409.092 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__a)" d="M1577.29 0l1409.082 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__b)" d="M1508.707 0l1409.091 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__a)" d="M1440.133 0l1409.083 823M1371.56 0l1409.082 823M1302.977 0L2712.06 823M1234.404 0l1409.082 823M1165.821 0l1409.082 823M1097.248 0L2506.33 823M1028.665 0l1409.082 823M960.092 0l1409.082 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__b)" d="M891.509 0l1409.092 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__a)" d="M822.936 0l1409.082 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__b)" d="M754.353 0l1409.092 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__a)" d="M685.78 0l1409.082 823M617.207 0l1409.082 823M548.624 0l1409.082 823M480.051 0l1409.082 823M411.468 0L1820.55 823M342.895 0l1409.082 823M274.312 0l1409.082 823M205.739 0l1409.082 823M137.156 0l1409.082 823M68.583 0l1409.082 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__b)" d="M0 0l1409.092 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__c)" d="M1644.211 0L235.129 823M1712.784 0L303.702 823M1781.367 0L372.285 823M1849.94 0L440.858 823M1918.523 0L509.441 823M1987.096 0L578.014 823M2055.679 0L646.597 823M2124.252 0L715.17 823M2192.835 0L783.753 823M2261.408 0L852.326 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__d)" d="M2329.991 0L920.899 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__c)" d="M2398.564 0L989.482 823M2467.137 0L1058.055 823M2535.72 0L1126.638 823M2604.293 0L1195.211 823M2672.876 0L1263.794 823M2741.449 0L1332.367 823M2810.032 0L1400.95 823M2878.605 0L1469.523 823M2947.188 0L1538.106 823M3015.761 0L1606.679 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__d)" d="M3084.344 0L1675.253 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__c)" d="M3152.918 0L1743.835 823M3221.491 0L1812.409 823M3290.074 0L1880.991 823M3358.647 0L2202.402 675.326 1949.565 823M3427.23 0L2018.148 823M3495.803 0L2086.721 823M3564.386 0L2155.304 823M3632.959 0L2223.877 823M3701.542 0L2292.46 823M3770.115 0L2361.033 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__d)" d="M3838.698 0L2429.606 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__c)" d="M3907.271 0L2498.189 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__d)" d="M3975.854 0L2566.762 823" transform="translate(-1337)"/>
+		<path stroke="url(#hero-home-grid_svg__c)" d="M4044.427 0L2635.345 823M4113 0L2703.918 823" transform="translate(-1337)"/>
+	</g>
+</svg>
